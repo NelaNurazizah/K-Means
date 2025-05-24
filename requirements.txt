@@ -4,3 +4,4 @@ werkzeug
 matplotlib
 scikit-learn
 seaborn
+gunicorn
