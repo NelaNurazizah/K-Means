@@ -1,0 +1,217 @@
+/* Font setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DFD0B8;
+    color: #222831;
+    box-sizing: border-box;
+}
+
+/* General Headings */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #222831;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #393E46;
+    text-align: center;
+}
+
+/* Links and Buttons */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #948979;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #393E46;
+}
+
+button {
+    background-color: #948979;
+    color: #ffffff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #393E46;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Global table style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+table, th, td {
+    border: 1px solid #948979;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: center;
+}
+
+/* Image style */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* ========== PAGE-SPECIFIC STYLES ========== */
+
+/* START PAGE */
+.start-html {
+    background-color: #222831;
+    color: #DFD0B8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start-html .div,
+.start-html .overlap,
+.start-html .group {
+    text-align: center;
+}
+
+.start-html .k-means-clustering {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.start-html .social-media-user {
+    font-size: 1.5rem;
+    color: #DFD0B8;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.start-html .btn {
+    background-color: #948979;
+    padding: 0.2rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.start-html .btn:hover {
+    background-color: #393E46;
+}
+
+/* DASHBOARD */
+.dashboard-html {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.dashboard-html .btn {
+    background-color: #948979;
+    padding: 5rem 5rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.dashboard-html .search {
+    font-size: 3rem;
+    color: #222831;
+}
+/* DATA AWAL */
+.data-awal-html {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* HASIL CLUSTERING */
+.hasil-clustering-html {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* VISUALISASI */
+.visualisasi-html {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* VIA APP */
+.via-app-html {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* INPUT */
+.input-html {
+    padding: 2rem;
+    text-align: center;
+}
+
+.input-html form {
+    max-width: 400px;
+    margin: auto;
+}
+
+/* UPLOAD CSV */
+.upload-csv-html {
+    padding: 2rem;
+    text-align: center;
+}
+
+.upload-csv-html form {
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    .start-html .k-means-clustering {
+        font-size: 1.5rem;
+    }
+
+    .start-html .social-media-user {
+        font-size: 1rem;
+    }
+}

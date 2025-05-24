@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>K-Means App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="dashboard-html">
+    <h1 class="search" >Search</h1>
+    <a href="{{ url_for('upload_csv') }}" class="btn">Search via File CSV</a>
+    <a href="{{ url_for('input') }}" class="btn">Search via App</a>
+</body>
+</html>

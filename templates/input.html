@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>K-Means App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="input-html">
+    <h1>Masukkan Nama Aplikasi</h1>
+    <form method="post">
+        <input type="text" name="app" required placeholder="Contoh: Instagram">
+        <button type="submit" class="btn">Cari</button>
+        <a href="{{ url_for('dashboard') }}" class="btn">Kembali</a>
+    </form>
+</body>
+</html>

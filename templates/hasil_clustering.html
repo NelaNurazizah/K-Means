@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>K-Means App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="hasil-clustering-html">
+    <h1>Hasil Clustering</h1>
+    <a href="{{ url_for('data_awal') }}">Data Awal</a>
+    <a href="{{ url_for('visualisasi') }}">Visualisasi</a>
+    {{ table | safe }}
+</body>
+</html>

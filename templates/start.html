@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>K-Means App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="start-html">
+    <div class="div">
+        <div class="overlap">
+            <div class="k-means-clustering">K-Means<br>Clustering</div>
+            <div class="social-media-user">Social Media User Segmentation</div>
+        </div>
+        <div class="group">
+            <a href="{{ url_for('dashboard') }}">
+                <div class="overlap-group">
+                    <div class="btn">start</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
